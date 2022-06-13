@@ -1,0 +1,29 @@
+{
+  "name": "clothing-mall-admin",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build"
+  },
+  "dependencies": {
+    "@vue/component-compiler-utils": "^3.1.2",
+    "axios": "^0.26.1",
+    "core-js": "^3.6.5",
+    "echarts": "^5.1.2",
+    "element-ui": "^2.15.6",
+    "vue": "^2.6.11",
+    "vue-loader": "^14.2.2",
+    "vue-router": "^3.2.0",
+    "vuex": "^3.6.2",
+    "vuex-persistedstate": "^4.1.0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.15",
+    "@vue/cli-plugin-router": "~4.5.15",
+    "@vue/cli-service": "~4.5.15",
+    "less": "^3.9.0",
+    "less-loader": "^4.1.0",
+    "vue-template-compiler": "^2.6.11"
+  }
+}

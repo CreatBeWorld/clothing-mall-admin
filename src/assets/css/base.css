@@ -1,0 +1,176 @@
+*,
+*::before,
+*::after{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html{
+  font-size: 16px;
+  color: #333;
+}
+body {
+  font-family:"Helvetica Neue",Helvetica,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","微软雅黑",Arial,sans-serif;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;/*webkit:苹果浏览器引擎，tap：点击*/
+}
+html,body,#app{
+  height: 100%;
+}
+a{
+  text-decoration: none;
+  color: inherit;
+}
+ul{
+  list-style: none;
+}
+.fl{
+  float: left;
+}
+.fr{
+  float: right;
+}
+.clearfix::after{
+  content: "";
+  clear: both;
+  display: block;
+}
+.el-breadcrumb{
+  margin-bottom: 15px;
+  font-size: 13px;
+}
+.el-card{
+  box-shadow: 0 1px 1px rgba(0,0,0,0.15)!important;
+}
+.el-table{
+  margin-top: 20px;
+}
+.el-table td,.el-table th{
+  text-align: center!important;
+}
+.el-pagination{
+  margin-top: 15px;
+}
+.el-select{
+  width: 300px!important;
+}
+/*图片上传*/
+.avatar-uploader .el-upload {
+  border: 1px solid #d9d9d9;
+  border-radius: 6px;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+}
+.el-upload:hover {
+  border-color: #409EFF;
+}
+.avatar-uploader-icon {
+  font-size: 28px;
+  color: #8c939d;
+  width: 178px;
+  height: 178px;
+  line-height: 178px;
+  text-align: center;
+}
+.avatar {
+  width: 178px;
+  height: 178px;
+  object-fit: cover;
+  display: block;
+}
+.setPadding{
+  padding-left: 40px!important;
+}
+.setPadding1 .el-submenu__title{
+  padding-left: 40px!important;
+}
+.setPadding1 .el-menu .setPadding{
+  padding-left: 60px!important;
+}
+.el-menu--collapse .el-submenu__title span{
+  display: none;
+}
+/*会员管理*/
+.my-table{
+  font-size: 12px!important;
+}
+.member-table .el-table__expanded-cell .my-table{
+  margin-top: 0 !important;
+}
+.member-table .el-table__body-wrapper .el-table__row{
+  height: 60px!important;
+}
+/*商品分类*/
+.isMenu .el-form-item__label{
+  width: 140px !important;
+  margin-left: -60px !important;
+}
+/*新增商品*/
+.el-steps{
+  margin: 15px 0;
+}
+.el-step__title{
+  font-size: 13px;
+}
+.form-items .el-form-item__label{
+  padding-bottom: 0px!important;
+}
+.form-items .el-select{
+  width: 130px !important;
+}
+.form-items .input-with-select .el-input-group__prepend {
+  background-color: #fff;
+}
+/*订单设置*/
+.order-config .el-form .el-form-item__content{
+  display: flex;
+}
+.order-config .el-form .el-input-group--append{
+  height: 40px !important;
+  width:50%;
+}
+/*退货退款申请详情信息*/
+.return .goods .el-descriptions__body .el-descriptions__table .el-descriptions-item__cell{
+  text-align: center;
+}
+.return .desc .el-descriptions__body{
+  margin-bottom: 15px;
+}
+.return .desc .el-descriptions-item__label{
+  width: 320px;
+}
+/* 发货列表*/
+.freight-table .el-table__row .el-table__cell{
+  padding: 0;
+
+}
+.freight-select{
+  width: 180px !important;
+  transform: translateY(10px);
+}
+/*订单详情*/
+.order-detail .details .el-descriptions-item__label.is-bordered-label{
+  background-color: #f2f6fc;
+}
+.order-detail .details .el-descriptions__body .el-descriptions__table .el-descriptions-item__cell{
+  text-align: center;
+}
+/*商品详情*/
+.goods-detail .details .el-descriptions-item__label.is-bordered-label{
+  background-color: #f2f6fc;
+}
+.goods-detail .details .el-descriptions__body .el-descriptions__table .el-descriptions-item__cell{
+  text-align: center;
+}
+.goods-detail .details .audit-form .el-descriptions-item__label{
+  width: 400px!important;
+}
+.goods-detail .details .audit-form .el-descriptions .is-bordered .el-descriptions-item__cell{
+  padding:10px 0;
+}
+.goods-detail .details .audit-form .el-form-item__error{
+  margin-left: 280px!important;
+  transform: translateY(10px);
+}
+
